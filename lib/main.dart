@@ -19,6 +19,16 @@ class MyApp extends StatelessWidget {
         AppRoutes.CATEGORIES_MEALS: (ctx) => CategoriesMealsScreen(),
         AppRoutes.MEAL_DETAIL: (ctx) => MealDetailScreen()
       },
+      // onGenerateRoute: (settings) {
+      //   return MaterialPageRoute(builder: (_) {
+      //     return CategoriesScreen();
+      //   });
+      // },
+      // onUnknownRoute: (settings) {
+      //   return MaterialPageRoute(builder: (_) {
+      //     return CategoriesScreen();
+      //   });
+      // },
       title: 'Vamos Cozinhar?',
       theme: ThemeData(
           canvasColor: Color.fromRGBO(255, 254, 229, 1),
